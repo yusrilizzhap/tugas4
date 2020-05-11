@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"><![CDATA[
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+
+    ]]>
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:layout_width="223dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="TUGAS"
+        android:textSize="50sp" />
+
+    <TextView
+            android:textStyle="bold"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="92dp"
+            android:text="Nama" />
+
+        <EditText
+            android:textColor="@color/colorAccent"
+            android:id="@+id/edtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="150dp"
+            android:ems="10"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:inputType="textPersonName" >
+            <requestFocus android:layout_width="match_parent" />
+        </EditText>
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="150dp"
+            android:text="NPM"/>
+
+        <EditText
+            android:id="@+id/edtNPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="150dp"
+            android:ems="10"
+            android:inputType="textPostalAddress" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView7"
+        android:layout_width="111dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="210dp"
+        android:text="Jenis Kelamin" />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView8"
+        android:layout_width="142dp"
+        android:layout_height="34dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginRight="12dp"
+        android:text="Jabatan" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="244dp"
+        tools:ignore="UselessParent">
+
+        <RadioButton
+            android:id="@+id/radioWanita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wanita" />
+
+        <RadioButton
+            android:id="@+id/radioPria"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+
+            android:text="Pria" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="36dp"
+        tools:ignore="UselessParent">
+
+        <RadioButton
+            android:id="@+id/direktur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Direktur" />
+
+        <RadioButton
+            android:id="@+id/menejer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menejer" />
+
+        <RadioButton
+            android:id="@+id/programer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programer" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="200dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/radioGroup2"
+
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginBottom="166dp"
+        android:background="@android:color/darker_gray"
+        android:text="cansel"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="199dp"
+        android:layout_height="108dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-215dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="197dp"
+        android:layout_toRightOf="@+id/btnCancel"
+        android:background="@android:color/darker_gray"
+        android:text="Hitung" />
+
+
+</RelativeLayout>

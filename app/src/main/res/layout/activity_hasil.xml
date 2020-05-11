@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:orientation="vertical"
+    tools:context=".Hasil"><![CDATA[
+
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical" >
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="116dp"
+        android:background="@android:color/holo_green_light"
+        android:text="gaji"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:text="Nama" />
+
+    <TextView
+        android:background="@color/colorAccent"
+        android:id="@+id/txtNama"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="60dp"
+        android:text="NPM" />
+
+    <TextView
+        android:background="@color/colorAccent"
+        android:id="@+id/txtNPM"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="120dp"
+        android:text="Jenis Kelamin" />
+
+    <TextView
+        android:background="@color/colorAccent"
+        android:id="@+id/txtJenisKelamin"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="120dp"
+        android:text="" />
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="180dp"
+        android:text="Jabatan" />
+
+    <TextView
+        android:background="@color/colorAccent"
+        android:id="@+id/txtJabatan"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="180dp"
+        android:text="" />
+
+    <TextView
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:layout_width="108dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="240dp"
+        android:text="Gaji" />
+
+    <TextView
+        android:background="@color/colorAccent"
+        android:id="@+id/txtGaji"
+        android:layout_width="138dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="240dp"
+        android:text="" />
+
+</RelativeLayout>
+
